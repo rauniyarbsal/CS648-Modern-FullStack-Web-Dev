@@ -1,14 +1,20 @@
-# CS648 – Modern Full Stack Web Development
+# M1 Lab 1 – JavaScript Fundamentals
 
-This repository contains my coursework for **CS648: Modern Full Stack Web Development**.
+### Problems Covered
+- Larger or Smaller
+- Coin Flip
+- Coin Flip (Redux)
+- Coin Flip Streak
+- Looping a Triangle
+- Odd or Even
+- Marco! Polo!
+- Countdown
 
-## Structure
-- The `main` branch provides an overview of the repository.
-- Each lab assignment is implemented in its own Git branch.
+### Running the Lab
+1. Open the project folder in **VS Code**, **Brackets**, or any code editor.
+2. Open the relevant HTML file.
+3. Use **Live Server**, **Live Preview**, or open the HTML file directly in a browser.
 
-### Branch Naming
-M{module}-lab-{number}
-Example: `M1-lab-1`
-
-## Viewing Assignments
-Switch to the corresponding branch and refer to the `README.md` in that branch for details.
+### Output
+- Some exercises display results directly in the browser using `alert()` or `document.write()`.
+- Other exercises log output to the browser console using `console.log()`.
