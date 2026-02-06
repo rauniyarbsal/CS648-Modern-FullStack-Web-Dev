@@ -1,14 +1,27 @@
-# CS648 – Modern Full Stack Web Development
+# M2 Lab 1 – JavaScript Functions & Game Logic
 
-This repository contains my coursework for **CS648: Modern Full Stack Web Development**.
+This lab focuses on practicing JavaScript functions, return values, conditional logic, and basic game mechanics.
 
-## Structure
-- The `main` branch provides an overview of the repository.
-- Each lab assignment is implemented in its own Git branch.
+## Problems Covered
+- Practice with Functions
+  - halfNumber
+  - squareNumber
+  - percentOf
+  - findModulus
+- Rock, Paper, Scissors Game
 
-### Branch Naming
-M{module}-lab-{number}
-Example: `M1-lab-1`
+These exercises reinforce:
+- Function parameters and return values
+- Console output using `console.log()`
+- Conditional logic
+- Random value generation with `Math.random()`
+- Input validation and control flow
 
-## Viewing Assignments
-Switch to the corresponding branch and refer to the `README.md` in that branch for details.
+## Running the Lab
+1. Open the project folder in **VS Code**, **Brackets**, or any code editor.
+2. Open the relevant HTML file.
+3. Use **Live Server**, **Live Preview**, or open the HTML file directly in a browser.
+
+## Output
+- Most output is displayed in the **browser console** using `console.log()`.
+- Interactive programs use `prompt()` for input and `alert()` to display results.
