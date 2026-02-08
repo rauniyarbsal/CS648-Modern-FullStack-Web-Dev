@@ -1,14 +1,31 @@
-# CS648 – Modern Full Stack Web Development
+# M2 Lab 2 – Employee Management System (DOM & Events)
 
-This repository contains my coursework for **CS648: Modern Full Stack Web Development**.
+This lab focuses on working with the DOM, handling form events, and collecting user input using JavaScript.
 
-## Structure
-- The `main` branch provides an overview of the repository.
-- Each lab assignment is implemented in its own Git branch.
+## Overview
+The Employee Management System demonstrates how to:
+- Handle the `window` load event
+- Attach event listeners to a form
+- Prevent default form submission behavior
+- Collect and process user input from form fields
+- Output form data to the browser console
 
-### Branch Naming
-M{module}-lab-{number}
-Example: `M1-lab-1`
+## Features Implemented
+- Employee form with validation using HTML attributes
+- Form submission handled via JavaScript
+- Console logging of:
+  - Employee ID
+  - Full Name
+  - Extension
+  - Email
+  - Department
+- Use of strict mode and arrow functions
 
-## Viewing Assignments
-Switch to the corresponding branch and refer to the `README.md` in that branch for details.
+## Running the Lab
+1. Open the project folder in **VS Code**, **Brackets**, or any code editor.
+2. Open `index.html`.
+3. Use **Live Server**, **Live Preview**, or open the file directly in a browser.
+
+## Output
+- Form data is displayed in the **browser console** using `console.log()`.
+- The page does not reload on submission due to `preventDefault()`.
